@@ -10,20 +10,20 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #f0f4f8; /* Light background */
+  background-color: #f0f4f8; 
 }
 
 .game-container {
   text-align: center;
-  background-color: #ffffff; /* White container */
+  background-color: #ffffff; 
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 h1 {
   margin-bottom: 20px;
-  color: #333333; /* Darker text for heading */
+  color: #333333; 
 }
 
 #game-board {
@@ -36,20 +36,20 @@ h1 {
 }
 
 .cell {
-  background-color: #ffe3e3; /* Light red cell background */
-  border: 2px solid #ff6b6b; /* Vibrant red border */
+  background-color: #ffe3e3; 
+  border: 2px solid #ff6b6b; 
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 40px;
   font-weight: bold;
-  color: #ff6b6b; /* Vibrant red for X and O */
+  color: #ff6b6b; 
   cursor: pointer;
   transition: background-color 0.3s;
 }
 
 .cell:hover {
-  background-color: #ffcccc; /* Hover effect for cells */
+  background-color: #ffcccc; 
 }
 
 .controls {
@@ -60,7 +60,7 @@ button {
   padding: 10px 20px;
   margin: 5px;
   border: none;
-  background-color: #4caf50; /* Green button background */
+  background-color: #4caf50; 
   color: white;
   font-size: 16px;
   cursor: pointer;
@@ -69,24 +69,24 @@ button {
 }
 
 button:hover {
-  background-color: #45a049; /* Darker green on hover */
+  background-color: #45a049; 
 }
 
 #mode-toggle {
-  background-color: #007bff; /* Blue toggle button */
+  background-color: #007bff; 
 }
 
 #mode-toggle:hover {
-  background-color: #0069d9; /* Darker blue on hover */
+  background-color: #0069d9; 
 }
 
 #status {
   font-size: 18px;
   margin-top: 10px;
-  color: #ff6b6b; /* Same red color for status message */
+  color: #ff6b6b; 
 }
 
-/* Add media queries for mobile responsiveness */
+
 @media (max-width: 600px) {
   #game-board {
       grid-template-columns: repeat(3, 80px);
@@ -106,3 +106,4 @@ button:hover {
       font-size: 24px;
   }
 }
+
